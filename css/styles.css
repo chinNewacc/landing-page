@@ -84,4 +84,13 @@ img {
     text-align: end;
 }
 
-/**/
+/*sign up section*/
+.sign-up {
+    margin: 0 15%;
+    gap: 52px;
+    padding: 32px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: antiquewhite;
+}
