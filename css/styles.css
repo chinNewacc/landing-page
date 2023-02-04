@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+/*first section*/
 .container {
     display: flex;
     flex-direction: column;
@@ -23,7 +24,7 @@ body {
 .hero-text {
     display: flex;
     flex-direction: column;
-
+    max-width: 50%;
 }
 
 .hero-text-h1 {
@@ -40,7 +41,31 @@ a {
     text-decoration: none;
 }
 
-img {
+.hero img {
     width: 400px;
     height: 200px;
+}
+
+/*second section*/
+.content {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.items {
+    max-width: 100px;
+}
+
+.items p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
