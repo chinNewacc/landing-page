@@ -94,3 +94,10 @@ img {
     display: flex;
     background-color: antiquewhite;
 }
+
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
