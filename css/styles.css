@@ -69,3 +69,19 @@ img {
     width: 100px;
     height: 100px;
 }
+
+/*quote section*/
+.quote {
+    margin: 0 auto;
+    max-width: 30%;
+}
+
+.quote p {
+    text-align: center;
+}
+
+#name {
+    text-align: end;
+}
+
+/**/
