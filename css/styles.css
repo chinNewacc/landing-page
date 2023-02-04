@@ -2,10 +2,32 @@ body {
     margin: 0;
 }
 
-.header {
-    padding: 16px;
+.container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    margin: 0 15%;
+}
+
+.header {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-text-h1 {
+    max-width: 40%;
 }
 
 ul {
@@ -16,4 +38,9 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+img {
+    width: 400px;
+    height: 200px;
 }
