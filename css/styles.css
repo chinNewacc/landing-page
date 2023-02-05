@@ -65,7 +65,9 @@ button {
 }
 
 .logo {
+    display: flex;
     font-size: 24px;
+    align-items: center;
 }
 
 ul {
@@ -87,8 +89,9 @@ a {
 /*second section*/
 .content {
     display: flex;
-    gap: 32px;
+    gap: 64px;
     justify-content: center;
+    margin: 5rem;
 }
 
 .items {
@@ -103,6 +106,8 @@ h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 800;
+    color: #1F2937;
+    margin: 5rem;
 }
 
 .items img {
@@ -114,16 +119,25 @@ h2 {
 
 /*quote section*/
 .quote {
+    padding: 1.25%;
+    background-color: #E5E7EB;
+}
+
+.quote-content {
     margin: 0 auto;
-    max-width: 30%;
+    max-width: 50%;
 }
 
 .quote p {
     text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
 }
 
 #name {
     text-align: end;
+    font-size: x-large;
 }
 
 /*sign up section*/
