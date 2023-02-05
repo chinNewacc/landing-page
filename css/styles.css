@@ -58,7 +58,7 @@ button {
 .hero-text {
     display: flex;
     flex-direction: column;
-    max-width: 30%;
+    max-width: 45%;
 
 }
 
