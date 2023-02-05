@@ -13,7 +13,8 @@ body,
 
 .logo,
 .hero-text-h1 h1,
-.sign-up h4 {
+.sign-up h4,
+.footer {
     color: #F9FAF8;
 }
 
@@ -172,4 +173,5 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 16px;
 }
