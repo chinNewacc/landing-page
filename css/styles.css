@@ -12,6 +12,7 @@ button {
     background-color: #2883F6;
     padding: 4px 10px;
     border-radius: 5px;
+    border: none;
 }
 
 /*first section*/
@@ -38,6 +39,7 @@ button {
     display: flex;
     flex-direction: column;
     max-width: 30%;
+
 }
 
 .hero-text-h1 {
@@ -79,6 +81,7 @@ a {
 .hero img {
     width: auto;
     height: 325px;
+    flex: 0 2 auto;
 }
 
 /*second section*/
@@ -89,7 +92,7 @@ a {
 }
 
 .items {
-    max-width: 100px;
+    max-width: 140px;
 }
 
 .items p {
@@ -98,11 +101,15 @@ a {
 
 h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: 800;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+.items img {
+    width: 140px;
+    height: 140px;
+    border: #2883F6 3px solid;
+    border-radius: 5px;
 }
 
 /*quote section*/
