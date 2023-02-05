@@ -103,7 +103,7 @@ a {
 /*second section*/
 .content {
     display: flex;
-    gap: 64px;
+    gap: 100px;
     justify-content: center;
     margin: 5rem;
 }
